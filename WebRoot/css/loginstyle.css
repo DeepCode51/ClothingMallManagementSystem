@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	magin:0px;
+	padding:0px;
+	
+	}
+	
+        .loginer{
+            width:550px; 
+            height: 350px;
+            margin:0 auto; 
+            background-color: white;
+            }
+       
+        .loginer table{
+            width: 500px;
+            margin:20px auto;
+        }
+       
+        
+        .loginer input {
+            width: 300px;
+            height: 40px;
+            margin:12px 100px;
+            margin-top: 10px;
+            
+        }
+        #sub{
+            width: 300px;
+            height:40px;
+            
+        }
+       
+        .loginer h1 { 
+            font-size:20px;  
+            line-height:54px; 
+            color:#4c4d4b; 
+            padding-left:20px;
+            border-bottom:solid #E85F61 3px;
+            width: 100px;
+        }
+        .loginer h2 {
+            float：right;
+            font-size:18px;  
+            line-height:54px; 
+            color:#4c4d4b; 
+            padding-left:200px;
+            width: 100px;
+        }
+        #sub1{
+            margin-left:10px;
+            width: 300px;
+            height:40px;
+            
+        }
+        /**/
+        #login{
+	       
+            background:url("../images/login.jpg") no-repeat;
+            background-size:cover;
+            padding:100px;
+            height:500px;
+        }
+        #na1{
+            background:url("images/icon-user.png") 5px 5px no-repeat;
+            background-size: 30px;
+            text-indent:50px;
+            font-size: 18px;
+        }
+        #password{
+            background:url("images/mima.png") 5px 5px no-repeat;
+            background-size:30px;
+            text-indent:50px;
+        }
+         h2{
+            font-size:20px;  
+            line-height:54px; 
+            color:#4c4d4b; 
+            padding-left:px;
+            border-bottom:solid #E85F61 3px;
+            
+          
+        }
+        .sub1{
+            position: relative;
+            top:-20px;
+            left: 24px;
+            width: 300px;
+            height:40px;
+        }

@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+  
+      *{
+			margin: 0;
+			padding: 0;
+		}
+		body{background-color:#f2f2f2f2;}
+		#suber{
+			width:1080px;
+			margin: 0 auto;
+			clear: both;
+		}
+		.top{
+			height:44px;
+			line-height: 44px;
+			margin: 0 20px;
+		}
+		ul{
+			list-style-type: none;
+		}
+		.top li{
+			float: left;
+		}
+		.top #leftlink a{
+			 padding-right: 10px;
+		}
+		.top #rightlink{
+			float: right;
+		}
+		.top #rightlink a{
+			padding-left: 10px;
+			margin-left: 10px;
+		}
+		.top a{
+			text-decoration: none;
+			color: #666;
+			font-size: 12px;
+		}
+		.top a:hover{
+			color:#E85F61;
+		}
+		
+		.clearfix:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.header{
+			width: 1080px;
+			background-color: white;
+			border-radius: 5px;
+			border-bottom-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+			
+		}
+		.header-top{
+			margin: 0 1.5em 0;
+			border-bottom: 3px solid #c31114;
+		}
+		.logo{
+			margin:22px 0 18px;
+			clear:both;
+		}
+		.info{
+			margin:46px 0 20px;
+		}
+		.fl{
+			float: left;
+		}
+		.fr{
+			float:right;
+		}
+		
+		
+		.header-nav{
+			position: relative;
+		}
+		.nav-item{
+			float: left;
+			width: 12.5%;
+			text-align: center;
+			height: 58px;
+			line-height: 58px;
+			font-size: 16px;
+		}
+		.nav-item:hover .submenu{
+			display: block;
+		}
+		.nav-item>a{
+			text-decoration: none;
+			color: #000;
+		}
+	
+		.banner{
+			width: 1080px;
+			height: auto;
+			background-color: white;
+			margin-top: 20px;
+            clean:both;
+			
+		}
+		.lefterbox{
+			width: 200px;
+			height: 800px;
+			float:left;
+            background:#fafafa;
+		}
+		.firstbox{
+			margin: 0 auto;
+			width: 200px;
+			
+		}
+		
+		.lefterbox h2 {
+			background:#c31114; 
+			font-size:16px; 
+			color:white;
+			padding:5px 20px; 
+		}
+        .firstbox li { 
+			font-weight:550; 
+			padding:2px 20px; 
+			margin-top: 10px;
+		}
+        .firstbox .cli { 
+            text-indent:60px;
+			font-weight:300; 
+			padding:2px 20px; 
+			margin-top: 5px;
+		} 
+        .firstbox li a{
+			color:#666;
+			text-decoration:none;
+		} 
+        .firstbox li a:hover{
+			color:#c31114;
+			text-decoration:none;
+		} 
+        .footer{
+            padding-top: 20px;
+            border-top: 3px solid #c31114;
+            width:1080px;
+            margin: 0 auto;
+            height: 35px;
+            background-color: white;
+            border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+            clear: both;
+    
+      
+        }
+        .main{
+            height: 800px;
+            width: 880px;
+            background-color:white;
+            float:right;}
+        .main h1{
+            font-weight: normal;
+			font-size:16px; 
+			color:#666;
+            padding-left: 30px;
+			padding:5px 20px 0 20px ; }
+        
+         .main h1>a{
+            font-weight: normal;
+			font-size:16px; 
+			color:#666;
+            text-decoration: none;
+        }
+        .main h1>a:hover{
+			color:#c31114;
+			text-decoration:none;
+		} 
+        
+        .productlist{
+            padding:30px;
+        }
+        .product li { 
+            width:200px; 
+            height:260px; 
+            line-height:22px; 
+            font-size:14px; 
+            overflow:hidden;
+            float:left;
+            margin-right:5px;
+            
+        }
+        .product li:hover{ 
+            width:200px; 
+            height:260px; 
+            line-height:22px; 
+            font-size:14px; 
+            overflow:hidden;
+            float:left;
+            margin-right:5px;
+            box-shadow: 3px 3px 5px #999;
+            
+        }
+        .productlist img {
+            width:180px;
+            height:180px;
+            padding: 0px;
+            margin:10px;
+            
+        }
+        .productlist .title,.price{
+            font-weight: normal;
+			font-size:16px; 
+			color:#000000;
+            height:20px;
+            margin:8px 10px;
+        }
+        .productlist a{
+            color:#000000;
+            text-decoration: none;
+        }
+        .productlist a:hover{
+			color:#c31114;
+			text-decoration:none;
+		}
+        .pager { margin-top:30px; }
+        .pager ul { float:right; }
+        .pager ul li { 
+            float:left; 
+            border:1px solid #eee; 
+            line-height:18px;
+            padding:0 3px;
+            margin:0 1px;
+            display:inline; }
+        .pager ul li.current { font-weight:bold; color:#630; }
+    
+        #magnifier{
+            width:300px;
+	        height:300px;
+	        position:absolute;
+	        top:300px;
+	        magin:25px 30px;
+       }
+       #magnifier img{
+            width:300px;
+	        height:300px;
+	        
+       }
+        .buy {
+            float:right;
+            width:380px;
+            height:400px;
+            line-height:40px;
+            border:0px;
+            margin-top: 60px;}
+        .price { color:#c31114; font-weight:bold; font-size:20px; }
+        .button {
+            
+            padding:8px; 
+            background:#c31114;
+            text-align:center;
+            color:white;
+            height:40px;
+            width:180px;
+            margin: 10px auto;
+        }
+        .button a{
+            font-size:18px;
+            color:white;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+        .introduce{position: relative;top:500px;padding: 30px;}
+        .introduce h2{font-size:24px;}
+        .introduce .text { padding:20px; font-size:14px; line-height:25px; }
+        .search-form{
+			
+			height: 33px;
+			width: 350px;
+			border:1px solid #666;
+			border-radius: 5px;
+			line-height: 33px;
+			margin-left: 1.5em;
+			padding-left: 8px;
+			float:right;
+			color:#C2C2C2;
+		}
+		#searchname {
+              display:inline-block;
+              height:30px;
+			  width:80px;
+			  border:0;
+              position: relative;
+              top:2px;
+              left:375px;
+              text-decoration:none;
+              background-color: white;
+              border-left:1px solid #666;
+              
+          }
+.chartimg{
+    height: 500px;
+    width: 880px;
+    border:0;
+    margin: 0 auto;
+}
+    
